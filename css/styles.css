@@ -12,18 +12,26 @@ button{
 .body{
  font-family:"Roboto",sans-serif;
  color: #2e2f42;
- background-color:#ffffff;;
+ background-color:#ffffff;
 }
 /* HEADER STYLES */
 .page-logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 .text-logo{
- color: #4d5ae5;   
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;;  
 }
 .menu-link{
 font-weight: 500;
@@ -35,7 +43,9 @@ letter-spacing: 0.02em;
 .menu-link:focus { 
 color: #404bbf;
 }
-
+.page-adress{
+font-style: normal;
+}
 .menu-contacts{
 font-weight: 400;
 font-size: 16px;
@@ -55,12 +65,13 @@ color: #404bbf;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07 
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff; 
 }
 .buy-now-btn{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -70,7 +81,7 @@ color: #404bbf;
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus{
-color: #404bbf
+background-color: #404BBF
 }
 /* SECTION 1 */
 .contens-list-item{
@@ -81,6 +92,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .list-item-block{
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -88,12 +100,18 @@ color: #2e2f42;
     color: #434455;
 }
 /* SECTION 2 */
+.portfolio{
+background-color: #F4F4FD 
+}
+.portfolio-list-list{
+background-color: #FFFFFF;
+}
 .portfolio-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
 }
 .portfolio-name{
@@ -114,9 +132,9 @@ color: #2e2f42;
 .communication{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;  
 }
 .communication-list-title{
