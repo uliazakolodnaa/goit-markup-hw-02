@@ -10,10 +10,9 @@ button{
     cursor: pointer;
 }
 .body{
- font-family:"Roboto",sans-serif;
-color : #434455;
- background-color:#ffffff;
-}
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 /* HEADER STYLES */
 .page-logo{
     font-family: "Raleway", sans-serif;
@@ -97,8 +96,8 @@ color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+   line-height: 1,5;
+    letter-spacing: 0,02em;
     color: #434455;
 }
 /* SECTION 2 */
@@ -155,20 +154,6 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.list-title-two{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-.list-text-two{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 /* FOOTER */
 .page-footer{
 background: #2e2f42;
@@ -187,7 +172,7 @@ font-size: 18px;
 line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color:#f4f4fd;
 }
 .page-logo-two{
     font-family: "Raleway", sans-serif;
